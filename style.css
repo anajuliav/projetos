@@ -1,0 +1,33 @@
+body {
+/*
+    background-image: url(assets/Mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+*/    
+
+
+/* background: 1-color; 2-image; 3-repeat; 4-position; /size */
+background: url(assets/Mobile.jpg) no-repeat top center/cover;
+/*atalho*/
+
+}
+
+#conteiner {
+   border: 1px solid rgb(80, 15, 100) ;
+   width: 360px;
+   margin: auto;
+}
+
+#profile img {
+    /* img- é um elemento inline;
+   para alinhar usarei estas propriedades*/
+   display: block;
+   width: 112px;  
+   margin: auto;
+}
+/* ou 
+#profile {
+    text-align:center;
+} */
+
